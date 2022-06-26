@@ -1,4 +1,5 @@
 :root {
+  --background-color: #fff;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --primary-background-color: #e5e5e5;
@@ -20,13 +21,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--primary-background-color);
+  background-color: var(--background-color);
 }
 
 /* Шапка */
 
 .header {
-  background-color: var(--background-header-color);
+  background-color: var(--background-der-color);
 }
 .logo {
   font-family: 'Raleway';
